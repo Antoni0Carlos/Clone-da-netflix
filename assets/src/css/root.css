@@ -87,13 +87,16 @@
         width: 100%;
         height: 100%;
       }
+      .slide-legend{
+        font-size: var(--small--font-size);
+    }
     /*=======FOOTER========*/
 .container__footer{
     width: 100%;
     height: auto;
     font-size: 0.8rem;
     margin: 0;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 }
 
