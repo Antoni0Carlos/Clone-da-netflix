@@ -20,7 +20,7 @@ a:hover{
 }
 
 .section{
-    background-image:  url(/assets/src/img/bg-img.webp);
+    background-image:  url(..//img/bg-img.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: var(--mg--3);
