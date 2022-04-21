@@ -1,0 +1,100 @@
+:root{
+    --first--color:#e50914;
+    --font--family: #fff;
+    --body--color:#181818;
+
+    --title-size: 3rem;
+    --subtitle-size: 1.375rem;
+    --big--font-size: 1.234rem;
+    --normal--font-size: 1rem;
+    --small--font-size: 0.8125rem;
+
+    --mg--0-8: 0.8rem;
+   --mg--1: 1rem;
+   --mg--1-5: 1rem;
+   --mg--2: 2rem;
+   --mg--2-5: 2.5rem;
+   --mg--3: 3rem;
+   --mg--4: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+    :root{  
+        --title-size: 3rem;
+        --subtitle-size: 1.375rem;
+        --big--font-size: 1.234rem;
+        --normal--font-size: 1rem;
+        --small--font-size: 0.8125rem;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-bottom: 4rem;
+        padding-left: 1rem;
+    }
+    .container-fluid{
+        width: 100%;
+        height: auto;
+        margin: 1rem 0;
+    }
+    .subtitle{
+        font-size: var(--big--font-size);
+        margin: 2rem 1rem;
+    }
+       /*=======HIADER========*/
+    .header {
+        width: 100%;
+        padding: 0;
+        margin: 0 0 1rem ;
+    }
+    .header .svg-icon-netflix-logo {
+        width: 60px;
+    }
+    .svg-icon-n-logo, .svg-icon-netflix-logo {
+        height: 30px;
+    }
+    .nav-list-icon{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        }
+    .nav__toggle{
+        margin-left: 3rem;
+    }
+
+    .btn{
+        width: 130px;
+        height: 50px;
+    }
+    .btn i{
+        margin: 0.3rem;
+    }
+    /*=======HOME PAGE========*/
+    .home-description{
+        padding-top: 6rem;
+    }
+    .home-description p{
+      width: 90%;
+      text-align: justify;
+    }
+    /*=======CARROSEL========*/
+    .swiper-slide .slide-img img {
+        width: 100%;
+        height: 100%;
+      }
+    /*=======FOOTER========*/
+.container__footer{
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 1rem 0;
+}
+}
+
+
