@@ -50,6 +50,7 @@
     .subtitle{
         font-size: var(--big--font-size);
         margin-left: 1rem;
+        background-color: #e50914;
     }
        /*=======HIADER========*/
     .header {
@@ -106,7 +107,7 @@
 }
 
 .swiper-button-prev {
-    top: 75%;
+  top: 75%;
 }
     /*=======FOOTER========*/
 .container__footer{
