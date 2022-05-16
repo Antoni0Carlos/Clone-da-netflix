@@ -307,10 +307,7 @@ margin-top: 8rem;
         display: flex;
         flex-direction: column;
     }
-    .slide-legend{
-        margin-top: var(--mg--0-8);
-        font-size: var(--normal--font-size);
-    }
+
 
    .swiper-pagination{
        display: none;
@@ -323,9 +320,6 @@ margin-top: 8rem;
     margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
     z-index: 100;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--first--color);
 }
 
@@ -336,9 +330,6 @@ margin-top: 8rem;
  margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
  z-index: 10;
  cursor: pointer;
- display: flex;
- align-items: center;
- justify-content: center;
  color: var(--first--color);
 }
 
